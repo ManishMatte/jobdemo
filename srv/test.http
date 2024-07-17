@@ -1,0 +1,19 @@
+###
+GET http://localhost:4004/odata/v4/demo/getData()
+Content-Type: application/json
+
+###
+POST http://localhost:4004/odata/v4/demo/postData
+Content-Type: application/json
+
+{
+    "x":"Hello"
+}
+
+###
+POST http://localhost:4004/odata/v4/open-srv/postData
+Content-Type: application/json
+
+{
+    "x":"Hello"
+}
